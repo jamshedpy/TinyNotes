@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "scripts": {
     "migrate": "node scripts/migrate.mjs",
-    "dev": "bun run migrate && node scripts/dev.mjs",
+    "dev": "node scripts/migrate.mjs && next dev",
     "test": "echo \"Automated tests are temporarily disabled in Node runtime.\"",
     "build": "next build",
     "start": "next start"
