@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# next build output
+.next/
+out/
+
+# local data
+/data/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# typescript
+*.tsbuildinfo
+
+# env
+.env
+.env.local
+.env.*.local
+
+# misc
+.DS_Store
+Thumbs.db
